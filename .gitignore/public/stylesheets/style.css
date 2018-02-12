@@ -1,0 +1,197 @@
+body {
+    color: #5D646F !important;
+    /* color: black !important; */
+    font-family: "Open Sans" !important;
+    padding: 10px 50px;
+}
+
+header {
+    background: #1F506A;
+    padding: 5px 10px 5px 20px;
+}
+
+header .logo {
+    height: 50px;
+}
+
+/*  Site-wide settings */
+.body-border {
+    border: 1px solid #5D646F;
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+}
+
+.error-message {
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+
+.hidden {
+    display:none;
+}
+
+.remove-left-and-right-padding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+
+input, select {
+    background-color: white;
+    border-radius: 5px;
+    height: 50px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.primary-text {
+    font-size: 1.5em;
+}
+
+.primary-font-color {
+    color: #5D646F;
+}
+
+/* misc */
+::-webkit-input-placeholder {
+   font-style: italic;
+   font-weight: bold;
+}
+
+:-moz-placeholder {
+   font-style: italic;
+   font-weight: bold;
+}
+::-moz-placeholder {
+   font-style: italic;
+   font-weight: bold;
+}
+
+:-ms-input-placeholder {
+   font-style: italic;
+   font-weight: bold;
+}
+
+/*  region*/
+.case-study {
+    background-color: #1D6990;
+    color: white;
+    padding-top: 60px;
+}
+
+.case-study .case-study-text {
+    font-size: 3.5em;
+}
+
+.jodi {
+    padding-bottom: 20px;
+}
+
+.jodi .row div {
+    line-height: 170%;
+}
+
+.jodi .row div img {
+    margin: -30px;
+}
+
+.description-header-2 {
+    color: #357EA1;
+    font-size: 2em;
+}
+
+.description {
+    background-color: #F2F2F6;
+    padding-top: 60px;
+}
+
+.description .description-text {
+    font-size: 4em;
+    line-height: 110%;
+}
+
+.stats {
+    padding-top: 30px;
+}
+
+.stats-numbers {
+    font-size: 3em;
+}
+
+.stats-numbers-header {
+    font-size: 0.9em;
+}
+
+.request-demo {
+    background-color: #1D6990;
+    color:white;
+    padding: 20px 5px 40px 5px;
+}
+
+.request-demo input[type="submit"] {
+    /* background-color: #F2AF79; */
+    background-color: green;
+    border-radius: 0 5px 5px 0;
+    color:white;
+    padding:5px 20px;
+    margin: -5px;
+    width: 160px;
+    height: 40px;
+}
+
+.request-demo input[type="email"] {
+    width: 50%;
+    height: 40px;
+}
+
+.request-demo input[type=text] {
+    padding:5px 20px 5px 20px;
+    margin-right: -1px;
+    width: 50%;
+}
+
+.request-info {
+    background-color: #F2F2F6;
+    padding-top: 50px;
+}
+
+.request-info h1 {
+    padding-bottom: 30px;
+}
+
+.request-info .center {
+    width: 50%;
+}
+
+.request-info section {
+    margin-bottom: 30px;
+}
+
+.request-info input[type=submit]  {
+    background-color: #1D6990;
+    color: white;
+}
+
+.request-info span {
+    font-size: 0.8em;
+}
+
+.request-info  input {
+    width: 100%;
+}
+
+.demo-confirmation {
+    min-height: 300px;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #5D646F;
+    color: white;
+    font-size: 0.9em;
+    padding: 25px 5px 5px 5px;
+}

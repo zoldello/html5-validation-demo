@@ -1,0 +1,53 @@
+<article class="request-info" role="article">
+    <h1 class="text-center">Tell us a little bit about your course</h1>
+
+    <form class="center js-submit-form" name="demoRequestForm" action="" role="form">
+
+            <p aria-details="description">
+                To deliever the most helpful and specific demonstration of our platform for your specific needs, please tell us a little bit more information about you, and your class size and subject.
+            </p>
+
+        <section class="">
+            <label for="email">
+                <span class="text-uppercase font-weight-bold" required>email address</span>
+            </label> <br>
+            <input id="email" class="js-e-mail" type="email" name="fEmail" required title="E-mail address required" role="textbox">
+        </section>
+
+        <section class="">
+            <label for="name">
+            <span class="text-uppercase font-weight-bold">your full name</span> </label><br>
+            <input id="name" type="text" name="fName" placeholder="What is your full name?" required pattern=".*\S+.*" title="Name cannot be empty" role="textbox">
+        </section>
+        <section class="">
+            <label for="number">
+            <span class="text-uppercase font-weight-bold">your phone number</span></label> <br>
+            <input id="number" type="tel" name="fNumber" placeholder="###-###-####" required pattern="^[0-9\-\+\s\(\)]*$" title="Phone Number Format is: +99(99)9999-9999)" role="textbox">
+        </section>
+        <section class="">
+            <label for="subject">
+            <span class="text-uppercase font-weight-bold">subject of your course</span></label><br>
+            <input id="subject" type="text" name="fSubject" placeholder="What course do you teach?" required pattern=".*\S+.*" title="Subject of course cannot be empty" role="textbox">
+        </section>
+
+        <section class="">
+            <label for="courseSize">
+                <span class="text-uppercase font-weight-bold">course size</span>
+            </label>
+            <br>
+            <select id="courseSize" name="fCourseSize" required role="combobox">
+                <option value="-1" selected>Select a course enrollment size</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="40">40</option>
+                <option value="80">80</option>
+            </select>
+            <span class="hidden error-message js-course-size-error">*Required</span>
+        </section>
+        <section class="">
+            <input class="font-weight-bold" type="submit" name="submitBtn" value="Save & Request a Demo" role="button" aria-label="Get Demo"></input>
+        </section>
+    </form>
+</article>
+
+<script src="/javascripts/demoRequest.js"></script>
